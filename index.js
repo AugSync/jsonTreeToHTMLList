@@ -116,7 +116,7 @@ function jsonTreeToHTMLList(jsonData, indentations) {
   topMainHTML = top;
   bottomMainHTML = bottom;
 
-  console.log(topMainHTML + bottomMainHTML);
+  return topMainHTML + bottomMainHTML;
 }
 
 module.exports = jsonTreeToHTMLList;

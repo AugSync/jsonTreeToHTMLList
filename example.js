@@ -16,7 +16,7 @@ const data1 = {
 };
 
 // Output with indentation 4
-jsonTreeToHTMLList(data1, 4);
+console.log(jsonTreeToHTMLList(data1, 4));
 `
   <ul>
       <li>
@@ -28,7 +28,7 @@ jsonTreeToHTMLList(data1, 4);
   </ul>
   `;
 
-jsonTreeToHTMLList(data1, 1);
+console.log(jsonTreeToHTMLList(data1, 1));
 
 // Example with nested children
 const data2 = {
@@ -56,7 +56,7 @@ const data2 = {
   ],
 };
 
-jsonTreeToHTMLList(data2, 1);
+console.log(jsonTreeToHTMLList(data2, 1));
 
 // Example with nested children (complex)
 const data3 = {
@@ -99,4 +99,4 @@ const data3 = {
   ],
 };
 
-jsonTreeToHTMLList(data3, 2);
+console.log(jsonTreeToHTMLList(data3, 2));
